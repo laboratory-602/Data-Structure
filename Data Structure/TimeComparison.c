@@ -34,19 +34,19 @@ int main() {
 }
 
 //此函数用于测试被测函数运行时间
-void run(double(*f)(int, double *, double), double a[], int case_n){
+void run(double(*f)(int, double *, double), double a[], int case_n){ /*在C语言中，如果函数名想要作为函数参数，必须定义函数指针*/
     int i;
-    
+
     start = clock();//开始计时
     for (i = 0; i < MAXK; i++) {
         (*f)(MAXN - 1, a, 1.1);
     }
     stop = clock();//结束技术
-    
+
     //“CLOCKS_PER_SEC”是机器每秒所走的时钟打点数，在某些IDE下“CLOCKS_PER_SEC”也可被写作“CLK_TCK”
     duration = ((double)(stop - start)) / CLOCKS_PER_SEC / MAXK;
-    printf("ticks%d = %f\n", case_n, (double)(stop - start));//输出1代表函数Standard，2代表函数Qin
-    printf("duration%d =% 6.2e\n", case_n, duration);
+    printf("ticks %d = %f\n", case_n, (double)(stop - start)); //输出1代表函数Standard，2代表函数Qin
+    printf("duration %d =% 6.2e\n", case_n, duration);
 }
 
 //多项式标准表达式
