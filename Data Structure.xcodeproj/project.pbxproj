@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD74BAF525289998006CA433 /* LinearList.c in Sources */ = {isa = PBXBuildFile; fileRef = AD74BAF425289998006CA433 /* LinearList.c */; };
 		ADE2FA11250BA96500C8105A /* TimeComparison.c in Sources */ = {isa = PBXBuildFile; fileRef = ADE2FA10250BA96500C8105A /* TimeComparison.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD74BAF425289998006CA433 /* LinearList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinearList.c; sourceTree = "<group>"; };
 		ADE2FA0D250BA96500C8105A /* Data Structure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Structure"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE2FA10250BA96500C8105A /* TimeComparison.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TimeComparison.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				ADE2FA10250BA96500C8105A /* TimeComparison.c */,
+				AD74BAF425289998006CA433 /* LinearList.c */,
 			);
 			path = "Data Structure";
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD74BAF525289998006CA433 /* LinearList.c in Sources */,
 				ADE2FA11250BA96500C8105A /* TimeComparison.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
