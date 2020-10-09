@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD74BAF525289998006CA433 /* LinearList.c in Sources */ = {isa = PBXBuildFile; fileRef = AD74BAF425289998006CA433 /* LinearList.c */; };
+		AD49D59325303BFB006AA5C6 /* deletedata.c in Sources */ = {isa = PBXBuildFile; fileRef = AD49D59225303BFB006AA5C6 /* deletedata.c */; };
 		ADE2FA11250BA96500C8105A /* TimeComparison.c in Sources */ = {isa = PBXBuildFile; fileRef = ADE2FA10250BA96500C8105A /* TimeComparison.c */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AD74BAF425289998006CA433 /* LinearList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinearList.c; sourceTree = "<group>"; };
+		AD49D59125303BFA006AA5C6 /* linklist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linklist.h; sourceTree = "<group>"; };
+		AD49D59225303BFB006AA5C6 /* deletedata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deletedata.c; sourceTree = "<group>"; };
 		ADE2FA0D250BA96500C8105A /* Data Structure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Structure"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE2FA10250BA96500C8105A /* TimeComparison.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TimeComparison.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD49D59525303C05006AA5C6 /* 删除节点算法 */ = {
+			isa = PBXGroup;
+			children = (
+				AD49D59225303BFB006AA5C6 /* deletedata.c */,
+				AD49D59125303BFA006AA5C6 /* linklist.h */,
+			);
+			path = "删除节点算法";
+			sourceTree = "<group>";
+		};
 		ADE2FA04250BA96500C8105A = {
 			isa = PBXGroup;
 			children = (
@@ -60,7 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				ADE2FA10250BA96500C8105A /* TimeComparison.c */,
-				AD74BAF425289998006CA433 /* LinearList.c */,
+				AD49D59525303C05006AA5C6 /* 删除节点算法 */,
 			);
 			path = "Data Structure";
 			sourceTree = "<group>";
@@ -121,7 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD74BAF525289998006CA433 /* LinearList.c in Sources */,
+				AD49D59325303BFB006AA5C6 /* deletedata.c in Sources */,
 				ADE2FA11250BA96500C8105A /* TimeComparison.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
