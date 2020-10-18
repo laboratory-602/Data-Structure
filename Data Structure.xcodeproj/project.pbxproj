@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD3F9829253BE81E00977A2D /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = AD3F9828253BE81E00977A2D /* Queue.c */; };
 		AD49D59325303BFB006AA5C6 /* deletedata.c in Sources */ = {isa = PBXBuildFile; fileRef = AD49D59225303BFB006AA5C6 /* deletedata.c */; };
 		AD85B873253714BB003D08BB /* LinearList.c in Sources */ = {isa = PBXBuildFile; fileRef = AD85B872253714BB003D08BB /* LinearList.c */; };
 		ADE2FA11250BA96500C8105A /* TimeComparison.c in Sources */ = {isa = PBXBuildFile; fileRef = ADE2FA10250BA96500C8105A /* TimeComparison.c */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD3F9828253BE81E00977A2D /* Queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Queue.c; path = "Data Structure/队列不设rear，另设count/Queue.c"; sourceTree = SOURCE_ROOT; };
 		AD49D59125303BFA006AA5C6 /* linklist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linklist.h; sourceTree = "<group>"; };
 		AD49D59225303BFB006AA5C6 /* deletedata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deletedata.c; sourceTree = "<group>"; };
 		AD85B872253714BB003D08BB /* LinearList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinearList.c; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD3F982B253BE82600977A2D /* 队列不设rear，另设count */ = {
+			isa = PBXGroup;
+			children = (
+				AD3F9828253BE81E00977A2D /* Queue.c */,
+			);
+			path = "队列不设rear，另设count";
+			sourceTree = "<group>";
+		};
 		AD49D59525303C05006AA5C6 /* 删除节点算法 */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 				AD85B875253714CF003D08BB /* 线性表删除区间内元素算法 */,
 				AD49D59625303EAF006AA5C6 /* 多项式算法时间比较 */,
 				AD49D59525303C05006AA5C6 /* 删除节点算法 */,
+				AD3F982B253BE82600977A2D /* 队列不设rear，另设count */,
 			);
 			path = "Data Structure";
 			sourceTree = "<group>";
@@ -151,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD49D59325303BFB006AA5C6 /* deletedata.c in Sources */,
+				AD3F9829253BE81E00977A2D /* Queue.c in Sources */,
 				ADE2FA11250BA96500C8105A /* TimeComparison.c in Sources */,
 				AD85B873253714BB003D08BB /* LinearList.c in Sources */,
 			);
