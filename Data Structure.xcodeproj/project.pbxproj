@@ -11,6 +11,8 @@
 		AD49D59325303BFB006AA5C6 /* deletedata.c in Sources */ = {isa = PBXBuildFile; fileRef = AD49D59225303BFB006AA5C6 /* deletedata.c */; };
 		AD85B873253714BB003D08BB /* LinearList.c in Sources */ = {isa = PBXBuildFile; fileRef = AD85B872253714BB003D08BB /* LinearList.c */; };
 		ADE2FA11250BA96500C8105A /* TimeComparison.c in Sources */ = {isa = PBXBuildFile; fileRef = ADE2FA10250BA96500C8105A /* TimeComparison.c */; };
+		ADEDC44D255C1A9900B58745 /* IncrementalLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEDC44A255C1A9900B58745 /* IncrementalLinkList.c */; };
+		ADEDC44E255C1A9900B58745 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEDC44C255C1A9900B58745 /* Stack.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +34,8 @@
 		AD85B872253714BB003D08BB /* LinearList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinearList.c; sourceTree = "<group>"; };
 		ADE2FA0D250BA96500C8105A /* Data Structure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Structure"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE2FA10250BA96500C8105A /* TimeComparison.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TimeComparison.c; sourceTree = "<group>"; };
+		ADEDC44A255C1A9900B58745 /* IncrementalLinkList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IncrementalLinkList.c; sourceTree = "<group>"; };
+		ADEDC44C255C1A9900B58745 /* Stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,30 @@
 		ADE2FA0F250BA96500C8105A /* Data Structure */ = {
 			isa = PBXGroup;
 			children = (
+				ADEDC449255C1A9900B58745 /* 递增链表的插入 */,
+				ADEDC44B255C1A9900B58745 /* 栈的应用-数制转换 */,
 				AD85B875253714CF003D08BB /* 线性表删除区间内元素算法 */,
 				AD49D59625303EAF006AA5C6 /* 多项式算法时间比较 */,
 				AD49D59525303C05006AA5C6 /* 删除节点算法 */,
 				AD3F982B253BE82600977A2D /* 队列不设rear，另设count */,
 			);
 			path = "Data Structure";
+			sourceTree = "<group>";
+		};
+		ADEDC449255C1A9900B58745 /* 递增链表的插入 */ = {
+			isa = PBXGroup;
+			children = (
+				ADEDC44A255C1A9900B58745 /* IncrementalLinkList.c */,
+			);
+			path = "递增链表的插入";
+			sourceTree = "<group>";
+		};
+		ADEDC44B255C1A9900B58745 /* 栈的应用-数制转换 */ = {
+			isa = PBXGroup;
+			children = (
+				ADEDC44C255C1A9900B58745 /* Stack.c */,
+			);
+			path = "栈的应用-数制转换";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +183,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEDC44E255C1A9900B58745 /* Stack.c in Sources */,
 				AD49D59325303BFB006AA5C6 /* deletedata.c in Sources */,
+				ADEDC44D255C1A9900B58745 /* IncrementalLinkList.c in Sources */,
 				AD3F9829253BE81E00977A2D /* Queue.c in Sources */,
 				ADE2FA11250BA96500C8105A /* TimeComparison.c in Sources */,
 				AD85B873253714BB003D08BB /* LinearList.c in Sources */,
