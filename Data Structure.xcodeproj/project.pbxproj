@@ -13,6 +13,7 @@
 		ADE2FA11250BA96500C8105A /* TimeComparison.c in Sources */ = {isa = PBXBuildFile; fileRef = ADE2FA10250BA96500C8105A /* TimeComparison.c */; };
 		ADEDC44D255C1A9900B58745 /* IncrementalLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEDC44A255C1A9900B58745 /* IncrementalLinkList.c */; };
 		ADEDC44E255C1A9900B58745 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEDC44C255C1A9900B58745 /* Stack.c */; };
+		ADEE888F255E9B63006C7551 /* LinkedStorage.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEE888E255E9B63006C7551 /* LinkedStorage.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,7 @@
 		ADE2FA10250BA96500C8105A /* TimeComparison.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TimeComparison.c; sourceTree = "<group>"; };
 		ADEDC44A255C1A9900B58745 /* IncrementalLinkList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IncrementalLinkList.c; sourceTree = "<group>"; };
 		ADEDC44C255C1A9900B58745 /* Stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
+		ADEE888E255E9B63006C7551 /* LinkedStorage.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedStorage.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				ADEDC44A255C1A9900B58745 /* IncrementalLinkList.c */,
+				ADEE888E255E9B63006C7551 /* LinkedStorage.c */,
 			);
 			path = "递增链表的插入";
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				ADEDC44D255C1A9900B58745 /* IncrementalLinkList.c in Sources */,
 				AD3F9829253BE81E00977A2D /* Queue.c in Sources */,
 				ADE2FA11250BA96500C8105A /* TimeComparison.c in Sources */,
+				ADEE888F255E9B63006C7551 /* LinkedStorage.c in Sources */,
 				AD85B873253714BB003D08BB /* LinearList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
