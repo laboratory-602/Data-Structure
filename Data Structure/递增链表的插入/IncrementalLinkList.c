@@ -5,6 +5,7 @@
 //  Created by Derek Chan on 2020/11/11.
 //
 
+//顺序存储实现
 #include <stdio.h>
 #include <stdlib.h>
 
