@@ -15,17 +15,18 @@ typedef struct TNode{
     struct TNode *left, *right;
 } BinTreeNode;
 
-BinTreeNode *CreateBinTree(char *data, int pos) {
+BinTreeNode *CreateBinTree(char *data, int pos, int t) {
     BinTreeNode *treeNode;
-    if (data[pos] == 0 || pos > Maxsize) {
+
+    if (data[pos] == 0 || pos > t-2) {
         return NULL;
     } else {
         treeNode = (BinTreeNode*)malloc(sizeof(BinTreeNode));
         treeNode->data = data[pos];
-        treeNode->left = CreateBinTree(data, 2*pos);
-        treeNode->right = CreateBinTree(data, 2*pos+1);
-        return treeNode;
+        treeNode->left = CreateBinTree(data, 2*pos, t);
+        treeNode->right = CreateBinTree(data, 2*pos+1, t);
     }
+    return treeNode;
 }
 
 BinTreeNode *BTreeCopy(BinTreeNode* BT) {
@@ -59,23 +60,20 @@ void InorderTraversal(BinTreeNode *BT) {
 }
 
 int main() {
+    int i = 0,t = 0;
+    char data[Maxsize];
     BinTreeNode *root = NULL;
     BinTreeNode *duplicateRoot = NULL;
-    char data[Maxsize];
-    int i = 0;
 
     printf("请输入节点：");
-    while (i < Maxsize) {
+    while (data[i-1] != '#') {
         scanf("%s", &data[i]);
-        if (data[i] == '#') {
-            data[i] = data[i-1];
-            break;
-        }
         i++;
+        t++;
     }
 
     printf("构建二叉树\n");
-    root = CreateBinTree(data, 1);
+    root = CreateBinTree(data, 1, t);
     printf("前序遍历：");
     PreOlder(root);
     printf("\n中序遍历：");
@@ -90,3 +88,4 @@ int main() {
 
     return 0;
 }
+
