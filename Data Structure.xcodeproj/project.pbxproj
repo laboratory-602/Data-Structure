@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD35F1EC25711D13001B5302 /* DuplicateTheBinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = AD35F1EB25711D13001B5302 /* DuplicateTheBinaryTree.c */; };
 		AD3F9829253BE81E00977A2D /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = AD3F9828253BE81E00977A2D /* Queue.c */; };
 		AD49D59325303BFB006AA5C6 /* deletedata.c in Sources */ = {isa = PBXBuildFile; fileRef = AD49D59225303BFB006AA5C6 /* deletedata.c */; };
 		AD85B873253714BB003D08BB /* LinearList.c in Sources */ = {isa = PBXBuildFile; fileRef = AD85B872253714BB003D08BB /* LinearList.c */; };
@@ -29,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD35F1EB25711D13001B5302 /* DuplicateTheBinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = DuplicateTheBinaryTree.c; path = "Data Structure/复制二叉树/DuplicateTheBinaryTree.c"; sourceTree = SOURCE_ROOT; };
 		AD3F9828253BE81E00977A2D /* Queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Queue.c; path = "Data Structure/队列不设rear，另设count/Queue.c"; sourceTree = SOURCE_ROOT; };
 		AD49D59125303BFA006AA5C6 /* linklist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linklist.h; sourceTree = "<group>"; };
 		AD49D59225303BFB006AA5C6 /* deletedata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deletedata.c; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD35F1EE25711D4B001B5302 /* 复制二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				AD35F1EB25711D13001B5302 /* DuplicateTheBinaryTree.c */,
+			);
+			path = "复制二叉树";
+			sourceTree = "<group>";
+		};
 		AD3F982B253BE82600977A2D /* 队列不设rear，另设count */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		ADE2FA0F250BA96500C8105A /* Data Structure */ = {
 			isa = PBXGroup;
 			children = (
+				AD35F1EE25711D4B001B5302 /* 复制二叉树 */,
 				ADEDC449255C1A9900B58745 /* 递增链表的插入 */,
 				ADEDC44B255C1A9900B58745 /* 栈的应用-数制转换 */,
 				AD85B875253714CF003D08BB /* 线性表删除区间内元素算法 */,
@@ -188,6 +199,7 @@
 			files = (
 				ADEDC44E255C1A9900B58745 /* Stack.c in Sources */,
 				AD49D59325303BFB006AA5C6 /* deletedata.c in Sources */,
+				AD35F1EC25711D13001B5302 /* DuplicateTheBinaryTree.c in Sources */,
 				ADEDC44D255C1A9900B58745 /* IncrementalLinkList.c in Sources */,
 				AD3F9829253BE81E00977A2D /* Queue.c in Sources */,
 				ADE2FA11250BA96500C8105A /* TimeComparison.c in Sources */,
