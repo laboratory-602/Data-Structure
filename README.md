@@ -7,4 +7,4 @@
 * [递增链表的插入（顺序存储实现）](https://github.com/laboratory-602/Data-Structure/blob/main/Data%20Structure/%E9%80%92%E5%A2%9E%E9%93%BE%E8%A1%A8%E7%9A%84%E6%8F%92%E5%85%A5/IncrementalLinkList.c)
 * [递增链表的插入（链式存储实现)](https://github.com/laboratory-602/Data-Structure/blob/main/Data%20Structure/%E9%80%92%E5%A2%9E%E9%93%BE%E8%A1%A8%E7%9A%84%E6%8F%92%E5%85%A5/LinkedStorage.c)
 
-*[复制二叉树](https://github.com/laboratory-602/Data-Structure/blob/main/Data%20Structure/%E5%A4%8D%E5%88%B6%E4%BA%8C%E5%8F%89%E6%A0%91/DuplicateTheBinaryTree.c)
+* [复制二叉树](https://github.com/laboratory-602/Data-Structure/blob/main/Data%20Structure/%E5%A4%8D%E5%88%B6%E4%BA%8C%E5%8F%89%E6%A0%91/DuplicateTheBinaryTree.c)
